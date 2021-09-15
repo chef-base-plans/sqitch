@@ -1,5 +1,5 @@
 pkg_name=sqitch
-pkg_version=0.9994
+pkg_version=0.9999
 pkg_origin=core
 pkg_license=('MIT')
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
@@ -8,7 +8,7 @@ pkg_upstream_url=http://sqitch.org/
 pkg_source=https://cpan.metacpan.org/authors/id/D/DW/DWHEELER/App-Sqitch-${pkg_version}.tar.gz
 pkg_filename=App-Sqitch-${pkg_version}.tar.gz
 pkg_dirname=App-Sqitch-${pkg_version}
-pkg_shasum=24de7770884419f199d24fa2ce81f5e7a27583028f685e6973a06840be00c646
+pkg_shasum=f5bfa80206738ab8a70358a3b0557661c7459e11ec07dece23ecafa1f34372b3
 pkg_deps=(core/glibc core/perl core/local-lib core/cpanminus)
 pkg_build_deps=(core/gcc core/make core/coreutils core/perl core/local-lib core/cpanminus)
 pkg_lib_dirs=(lib)
